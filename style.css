@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.wrapper {
+  max-width: 1920px;
+  min-height: 350px;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+/* VERY TOP  */
+.discount {
+  max-width: 1920px;
+  min-width: 350px;
+  height: 40px;
+  background: #faff05;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.discount h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #100e18;
+}
+/* NAVIGATION BAR  */
+nav {
+  max-width: 1920px;
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  height: 50px;
+}
+@media (max-width: 1495px) {
+  nav {
+    gap: 200px;
+  }
+}
+@media (max-width: 1290px) {
+  nav {
+    gap: 100px;
+  }
+}
+@media (max-width: 1290px) {
+  nav {
+    gap: 50px;
+  }
+}
+@media (max-width: 509px) {
+  nav {
+    gap: 20px;
+    position: relative;
+    left: 30px;
+  }
+}
+.auth {
+  display: flex;
+  gap: 36px;
+  position: relative;
+}
+.auth img {
+  cursor: pointer;
+}
+@media (max-width: 1290px) {
+  .auth {
+    gap: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .auth {
+    bottom: 6px;
+  }
+  .auth img {
+    bottom: 28px;
+  }
+}
+@media (max-width: 509px) {
+  .auth {
+    gap: 10px;
+  }
+}
+.auth img {
+  width: 20px;
+}
+.two {
+  position: absolute;
+  left: 125px;
+}
+@media (max-width: 1290px) {
+  .two {
+    left: 92px;
+  }
+}
+@media (max-width: 509px) {
+  .two {
+    left: 68px;
+  }
+}
+.links {
+  display: flex;
+  gap: 70px;
+  position: relative;
+}
+@media (max-width: 1290px) {
+  .links {
+    gap: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .links {
+    display: none;
+  }
+}
+.links a {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #100e18;
+  cursor: pointer;
+}
+.links .twenty {
+  width: 24px;
+  position: absolute;
+  left: 190px;
+}
+@media (max-width: 1290px) {
+  .links .twenty {
+    left: 138px;
+  }
+}
+/* BURGER  */
+#burger-menu {
+  cursor: pointer;
+  height: 27px;
+  width: 27px;
+  margin: 50px;
+  overflow: visible;
+  position: relative;
+  z-index: 2;
+}
+#burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after {
+  background: black;
+  display: block;
+  height: 4px;
+  opacity: 1;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+#burger-menu span:before,
+#burger-menu span:after {
+  content: "";
+}
+#burger-menu span {
+  right: 0px;
+  top: 13px;
+  width: 27px;
+}
+#burger-menu span:before {
+  left: 0px;
+  top: -10px;
+  width: 16px;
+}
+#burger-menu span:after {
+  left: 0px;
+  top: 10px;
+  width: 20px;
+}
+
+#burger-menu.close span {
+  transform: rotate(-45deg);
+  top: 13px;
+  width: 27px;
+}
+#burger-menu.close span:before {
+  top: 0px;
+  transform: rotate(90deg);
+  width: 27px;
+}
+#burger-menu.close span:after {
+  top: 0px;
+  left: 0;
+  transform: rotate(90deg);
+  opacity: 0;
+  width: 0;
+}
+
+#menu {
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  height: 0;
+  right: 0px;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  padding-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu.overlay {
+  visibility: visible;
+  opacity: 1;
+  padding-top: 100px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#menu li {
+  list-style: none;
+}
+#menu a {
+  color: #fff;
+  display: block;
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+}
+@media (max-width: 750px) {
+  .burger {
+    display: block;
+    position: relative;
+    bottom: 45px;
+    right: 25px;
+  }
+}
+
+/* CONTENT  */
+
+.content {
+  max-width: 1920px;
+  min-width: 350px;
+  height: 960px;
+  background: #c4140f;
+  display: flex;
+}
+@media (max-width: 1400px) {
+  .content {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.content .left {
+  flex: 1;
+  margin-left: 208px;
+}
+@media (max-width: 690px) {
+  .content .left {
+    margin-left: 50px;
+  }
+}
+.left .nonsense h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.left .nonsense .line {
+  width: 100px;
+  height: 0px;
+  border: 1px solid #faff05;
+}
+.left {
+  margin-top: 214px;
+}
+.text h1 {
+  width: 480px;
+  height: 240px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0.15em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+@media (max-width: 530px) {
+  .text h1 {
+    width: 300px;
+    font-size: 40px;
+  }
+}
+.text button {
+  width: 229px;
+  height: 76px;
+  background: #faff05;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  color: #100e18;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 450px) {
+  .text button {
+    margin-bottom: 50px;
+  }
+}
+.content .right {
+  flex: 1;
+}
+
+.right {
+  position: relative;
+}
+@media (max-width: 1140px) {
+  .right {
+    right: 200px;
+  }
+}
+@media (max-width: 744px) {
+  .right {
+    right: 230px;
+  }
+}
+.right .girl {
+  position: relative;
+  top: 63px;
+  z-index: 1;
+}
+@media (max-width: 1400px) {
+  .right .girl {
+    top: 0;
+    left: 560px;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 450px) {
+  .right .girl {
+    width: 400px;
+    top: 5px;
+  }
+}
+.yellow {
+  position: relative;
+  bottom: 690px;
+  right: 80px;
+}
+@media (max-width: 1400px) {
+  .yellow {
+    bottom: 0;
+    right: 0;
+  }
+}
+.right .fitness {
+  position: absolute;
+  top: 410px;
+  right: 55px;
+}
+
+/* BELLAFIT  */
+
+.bellafit {
+  margin-top: 180px;
+  height: auto;
+  max-width: 1920px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.bellafit h4 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.15em;
+  text-transform: capitalize;
+  color: #8a8a8a;
+  flex-wrap: wrap;
+}
+.bellafit div {
+  max-width: 1324px;
+  margin: 0 20px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #100e18;
+}
+.bellafit button {
+  background: #faff05;
+  width: 264px;
+  height: 76px;
+  border: none;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  color: #100e18;
+  margin-top: 50px;
+  margin-bottom: 180px;
+  cursor: pointer;
+}
+.thumbnail {
+  cursor: pointer;
+}
