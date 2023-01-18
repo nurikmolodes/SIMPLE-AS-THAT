@@ -65,6 +65,11 @@ nav {
     left: 30px;
   }
 }
+@media (max-width: 750px) {
+  .thumbnail {
+    display: none;
+  }
+}
 .auth {
   display: flex;
   gap: 36px;
@@ -224,6 +229,8 @@ nav {
 
 #menu li {
   list-style: none;
+  position: relative;
+  right: 20px;
 }
 #menu a {
   color: #fff;
@@ -241,12 +248,11 @@ nav {
     display: block;
     position: relative;
     bottom: 45px;
-    right: 25px;
+    right: 100px;
   }
 }
 
 /* CONTENT  */
-
 .content {
   max-width: 1920px;
   min-width: 350px;
@@ -285,6 +291,11 @@ nav {
 }
 .left {
   margin-top: 214px;
+}
+@media(max-width: 900px) {
+  .left {
+    margin-top: 48px;
+  }
 }
 .text h1 {
   width: 480px;
@@ -358,16 +369,77 @@ nav {
     align-items: center;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 540px) {
   .right .girl {
     width: 400px;
-    top: 5px;
+    left: 490px;
+  }
+}
+@media (max-width: 450px) {
+  .right .girl {
+    width: 300px;
+    top: 0px;
+    left: 450px;
+  }
+}
+@media (max-width: 400px) {
+  .right .girl {
+    width: 300px;
+    top: 0px;
+    left: 420px;
   }
 }
 .yellow {
   position: relative;
   bottom: 690px;
   right: 80px;
+}
+@media (max-width: 675px) {
+  .yellow {
+    width: 550px;
+    top: 124px;
+  }
+}
+@media (max-width: 585px) {
+  .yellow {
+    width: 500px;
+    top: 154px;
+  }
+}
+@media (max-width: 540px) {
+  .yellow {
+    width: 450px;
+    top: 104px;
+    left: 35px;
+  }
+}
+@media (max-width: 475px) {
+  .yellow {
+    width: 400px;
+    top: 133px;
+    left: 35px;
+  }
+}
+@media (max-width: 450px) {
+  .yellow {
+    width: 400px;
+    top: 41px;
+    left: 78px;
+  }
+}
+@media (max-width: 415px) {
+  .yellow {
+    width: 350px;
+    top: 70px;
+    left: 78px;
+  }
+}
+@media (max-width: 365px) {
+  .yellow {
+    width: 300px;
+    top: 100px;
+    left: 85px;
+  }
 }
 @media (max-width: 1400px) {
   .yellow {
@@ -380,9 +452,102 @@ nav {
   top: 410px;
   right: 55px;
 }
+@media(max-width: 1575px) {
+  .right .fitness {
+    width: 800px;
+    right: 400px;
+    top: 500px;
+  }
+}
+@media(max-width: 1400px) {
+  .right .fitness {
+    width: 800px;
+    right: 350px;
+    top: -200px;
+  }
+}
+@media(max-width: 1355px) {
+  .right .fitness {
+    width: 800px;
+    right: 250px;
+    top: -200px;
+  }
+}
+@media(max-width: 1264px) {
+  .right .fitness {
+    width: 800px;
+    right: 200px;
+    top: -200px;
+  }
+}
+@media(max-width: 1215px) {
+  .right .fitness {
+    width: 500px;
+    right: 400px;
+    top: -200px;
+  }
+}
+@media(max-width: 1140px) {
+  .right .fitness {
+    width: 500px;
+    right: 120px;
+    top: -200px;
+  }
+}
+@media(max-width: 1035px) {
+  .right .fitness {
+    width: 500px;
+    right: 20px;
+    top: -200px;
+  }
+}
+@media(max-width: 930px) {
+  .right .fitness {
+    width: 400px;
+    right: 20px;
+    top: -200px;
+  }
+}
+@media(max-width: 830px) {
+  .right .fitness {
+    width: 400px;
+    right: -100px;
+    top: -200px;
+  }
+}
+@media(max-width: 743px) {
+  .right .fitness {
+    width: 400px;
+    right: -140px;
+    top: -200px;
+  }
+}
+@media(max-width: 690px) {
+  .right .fitness {
+    width: 400px;
+    right: -90px;
+    top: -200px;
+  }
+}
+@media(max-width: 585px) {
+  .right .fitness {
+    width: 400px;
+    right: -180px;
+    top: -200px;
+  }
+}
+@media(max-width: 504px) {
+  .right .fitness {
+    width: 300px;
+    right: -180px;
+    top: -250px;
+  }
+}
+
+
+
 
 /* BELLAFIT  */
-
 .bellafit {
   margin-top: 180px;
   height: auto;
