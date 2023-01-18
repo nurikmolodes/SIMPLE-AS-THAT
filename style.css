@@ -923,7 +923,7 @@ nav {
   height: 1120px;
   background: url("./assets/circle.svg");
 }
-@media(max-width: 1000px) {
+@media (max-width: 1000px) {
   .circle {
     background-size: contain;
     background-repeat: no-repeat;
@@ -932,7 +932,7 @@ nav {
 .description {
   height: 690px;
   width: 600px;
-  background: #FFFFFF;
+  background: #ffffff;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -943,86 +943,85 @@ nav {
   top: 200px;
   flex: wrap;
 }
-@media(max-width: 1670px) {
+@media (max-width: 1670px) {
   .description {
     width: 400px;
     height: auto;
     margin: 0 50px;
   }
 }
-@media(max-width: 1460px) {
+@media (max-width: 1460px) {
   .description {
     top: 550px;
   }
 }
-@media(max-width: 1000px) {
+@media (max-width: 1000px) {
   .description {
     top: 500px;
     right: 20%;
   }
 }
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   .description {
     top: 400px;
     right: 17%;
   }
 }
-@media(max-width: 700px) {
+@media (max-width: 700px) {
   .description {
     top: 350px;
     right: 13%;
   }
 }
-@media(max-width: 630px) {
+@media (max-width: 630px) {
   .description {
     top: 350px;
     right: 10%;
   }
 }
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   .description {
     top: 300px;
     right: 8%;
   }
 }
-@media(max-width: 540px) {
+@media (max-width: 540px) {
   .description {
     top: 300px;
     right: 0%;
   }
 }
-@media(max-width: 490px) {
+@media (max-width: 490px) {
   .description {
     top: 250px;
     right: 0%;
   }
 }
-@media(max-width: 470px) {
+@media (max-width: 470px) {
   .description {
     top: 250px;
     right: -5%;
   }
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .description {
     top: 250px;
     right: -8%;
   }
 }
-@media(max-width: 406px) {
+@media (max-width: 406px) {
   .description {
     top: 250px;
     right: -14%;
   }
 }
-@media(max-width: 385px) {
+@media (max-width: 385px) {
   .description {
     top: 250px;
     right: -5%;
     width: 300px;
   }
 }
-
 
 .list h1 {
   font-family: "Josefin Sans";
@@ -1045,15 +1044,73 @@ nav {
   width: 450px;
   text-align: left;
 }
-@media(max-width: 415px) {
+@media (max-width: 415px) {
   .list p {
     width: 340px;
     font-size: 15px;
   }
 }
-@media(max-width: 1670px) {
+@media (max-width: 1670px) {
   .list p {
     width: auto;
     margin: 0 20px;
   }
+}
+
+/* SERVICES  */
+.services {
+  max-width: 1920px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 180px;
+  margin-bottom: 120px;
+}
+
+.services h4 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.15em;
+  text-transform: capitalize;
+  color: #8a8a8a;
+}
+.services h2 {
+  width: 1048px;
+  height: 120px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #100e18;
+}
+@media(max-width: 1100px) {
+  .services h2 {
+    width: auto;
+    height: auto;
+    margin: 50px 20px;
+  }
+}
+.services button {
+  width: 280px;
+  height: 76px;
+  border: none;
+  background: #faff05;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  color: #100e18;
+  cursor: pointer;
 }
