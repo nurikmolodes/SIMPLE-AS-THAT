@@ -292,7 +292,7 @@ nav {
 .left {
   margin-top: 214px;
 }
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   .left {
     margin-top: 48px;
   }
@@ -452,100 +452,97 @@ nav {
   top: 410px;
   right: 55px;
 }
-@media(max-width: 1575px) {
+@media (max-width: 1575px) {
   .right .fitness {
     width: 800px;
     right: 400px;
     top: 500px;
   }
 }
-@media(max-width: 1400px) {
+@media (max-width: 1400px) {
   .right .fitness {
     width: 800px;
     right: 350px;
     top: -200px;
   }
 }
-@media(max-width: 1355px) {
+@media (max-width: 1355px) {
   .right .fitness {
     width: 800px;
     right: 250px;
     top: -200px;
   }
 }
-@media(max-width: 1264px) {
+@media (max-width: 1264px) {
   .right .fitness {
     width: 800px;
     right: 200px;
     top: -200px;
   }
 }
-@media(max-width: 1215px) {
+@media (max-width: 1215px) {
   .right .fitness {
     width: 500px;
     right: 400px;
     top: -200px;
   }
 }
-@media(max-width: 1140px) {
+@media (max-width: 1140px) {
   .right .fitness {
     width: 500px;
     right: 120px;
     top: -200px;
   }
 }
-@media(max-width: 1035px) {
+@media (max-width: 1035px) {
   .right .fitness {
     width: 500px;
     right: 20px;
     top: -200px;
   }
 }
-@media(max-width: 930px) {
+@media (max-width: 930px) {
   .right .fitness {
     width: 400px;
     right: 20px;
     top: -200px;
   }
 }
-@media(max-width: 830px) {
+@media (max-width: 830px) {
   .right .fitness {
     width: 400px;
     right: -100px;
     top: -200px;
   }
 }
-@media(max-width: 743px) {
+@media (max-width: 743px) {
   .right .fitness {
     width: 400px;
     right: -140px;
     top: -200px;
   }
 }
-@media(max-width: 690px) {
+@media (max-width: 690px) {
   .right .fitness {
     width: 400px;
     right: -90px;
     top: -200px;
   }
 }
-@media(max-width: 585px) {
+@media (max-width: 585px) {
   .right .fitness {
     width: 400px;
     right: -180px;
     top: -200px;
   }
 }
-@media(max-width: 504px) {
+@media (max-width: 504px) {
   .right .fitness {
     width: 300px;
     right: -180px;
     top: -250px;
   }
 }
-
-
-
 
 /* BELLAFIT  */
 .bellafit {
@@ -600,4 +597,244 @@ nav {
 }
 .thumbnail {
   cursor: pointer;
+}
+
+/* SCROLL  */
+.scroll {
+  max-width: 1921px;
+  height: 1000px;
+  min-width: 350px;
+  background: url("./assets/background.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
+@media(max-width: 1360px) {
+  .scroll {
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media(max-width: 445px) {
+  .scroll {
+    display: none;
+  }
+}
+.scrolll {
+  max-width: 1921px;
+  height: auto;
+  min-width: 350px;
+  background: url("./assets/background.jpg");
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  display: none;
+}
+@media(max-width: 445px) {
+  .scrolll {
+    display: block;
+  }
+}
+
+.yellow-line {
+  border: 2px solid #faff05;
+  height: 0px;
+  background-color: #faff05;
+  width: 416px;
+}
+
+@media(max-width: 445px) {
+  .yellow-line {
+    width: 338px;
+  }
+}
+
+.recovery {
+  height: 420px;
+  width: 420px;
+  border: 1px solid rgba(241, 235, 235, 0.3);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-top: 250px;
+}
+@media(max-width: 1360px) {
+  .recovery {
+    margin-top: 50px;
+  }
+}
+@media(max-width: 445px) {
+  .recovery {
+    font-size: 15px;
+    width: 340px;
+    margin-left: 48px;
+  }
+}
+
+.recovery h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+@media(max-width: 445px) {
+  .recovery h1 {
+    width: 338px;
+    font-size: 25px;
+  }
+}
+.recovery p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8a8a8a;
+  margin-left: 50px;
+}
+@media(max-width: 445px) {
+  .recovery p {
+    font-size: 15px;
+  }
+}
+.personal {
+  background: #faff05;
+  height: 436px;
+  width: 420px;
+  margin-top: 250px;
+}
+@media(max-width: 1360px) {
+  .personal {
+    margin-top: 50px;
+  }
+}
+@media(max-width: 445px) {
+  .personal {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    margin-left: 45px;
+  }
+}
+.personal h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #100e18;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+@media(max-width: 445px) {
+  .personal h1 {
+    font-size: 20px;
+    margin-left: 18px;
+  }
+}
+.personal p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #100e18;
+  margin-left: 50px;
+}
+@media(max-width: 445px) {
+  .personal p {
+    margin-left: 18px;
+  }
+}
+.personal .button {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  color: #c4140f;
+  margin-left: 50px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+@media(max-width: 445px) {
+  .personal .button {
+    width: 181px;
+    margin-left: 18px;
+  }
+}
+.group {
+  height: 420px;
+  width: 420px;
+  border: 1px solid rgba(241, 235, 235, 0.3);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-top: 250px;
+}
+
+@media(max-width: 445px) {
+  .group {
+    width: 340px;
+    margin-left: 12%;
+  }
+}
+@media(max-width: 1360px) {
+  .group {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+.group h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+@media(max-width: 445px) {
+  .group h1 {
+    font-size: 25px;
+  }
+}
+.group p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8a8a8a;
+  margin-left: 50px;
+}
+@media(max-width: 445px) {
+  .group p {
+    font-size: 15px;
+  }
+}
+
+
+/* SWIPER  */
+.swiper-pagination-bullet-active {
+  background-color: white !important;
 }

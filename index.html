@@ -6,13 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"
+      defer
+    ></script>
     <script src="./scripts/burger.js" defer></script>
+    <script src="./scripts/swiper.js" defer></script>
   </head>
   <body>
     <div class="wrapper">
+      <!-- DISCOUNT  -->
       <div class="discount">
         <h1>Sign in & get 20% off $100+ or 25% off $150+</h1>
       </div>
+      <!-- NAVBAR  -->
       <nav>
         <div class="thumbnail">
           <img src="/assets/logo.svg" />
@@ -69,6 +81,7 @@
         </div>
       </div>
 
+      <!-- BELLAFIT -->
       <div class="bellafit">
         <h4>bellafit</h4>
         <div>
@@ -78,6 +91,84 @@
           trainers and fitness brands, all in one place.
         </div>
         <button>SHOP PACKAGE</button>
+      </div>
+
+      <!-- SCROLL SWIPER  -->
+      <div class="scrolll">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="recovery">
+                <div class="yellow-line"></div>
+                <h1>stretch &recovery</h1>
+                <p>
+                  If your goals are to improve your overall health and wellness,
+                  we have everything you need. We have cardio equipment spanning
+                  two floors including 8 stepmills.
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="personal">
+                <h1>personal trening</h1>
+                <p>
+                  If your goals are to improve your overall health and wellness,
+                  we have everything you need. We have cardio equipment spanning
+                  two floors including 8 stepmills.
+                </p>
+                <img class="button" src="./assets/button.svg" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="group">
+                <div class="yellow-line"></div>
+                <h1>group treniing</h1>
+                <p>
+                  If your goals are to improve your overall health and wellness,
+                  we have everything you need. We have cardio equipment spanning
+                  two floors including 8 stepmills.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <!-- SIMPLE SCROLL -->
+      <div class="scroll">
+        <div class="recovery">
+          <div class="yellow-line"></div>
+          <h1>stretch &recovery</h1>
+          <p>
+            If your goals are to improve your overall health and wellness, we
+            have everything you need. We have cardio equipment spanning two
+            floors including 8 stepmills.
+          </p>
+        </div>
+
+        <div class="personal">
+          <h1>personal trening</h1>
+          <p>
+            If your goals are to improve your overall health and wellness, we
+            have everything you need. We have cardio equipment spanning two
+            floors including 8 stepmills.
+          </p>
+          <img class="button" src="./assets/button.svg" />
+        </div>
+
+        <div class="group">
+          <div class="yellow-line"></div>
+          <h1>group treniing</h1>
+          <p>
+            If your goals are to improve your overall health and wellness, we
+            have everything you need. We have cardio equipment spanning two
+            floors including 8 stepmills.
+          </p>
+        </div>
       </div>
     </div>
   </body>
