@@ -613,13 +613,13 @@ nav {
   align-items: center;
 }
 
-@media(max-width: 1360px) {
+@media (max-width: 1360px) {
   .scroll {
     flex-direction: column;
     height: auto;
   }
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .scroll {
     display: none;
   }
@@ -633,11 +633,11 @@ nav {
   justify-content: center;
   gap: 40px;
   display: flex;
- justify-content: center;
- align-items: center;
+  justify-content: center;
+  align-items: center;
   display: none;
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .scrolll {
     display: block;
   }
@@ -650,7 +650,7 @@ nav {
   width: 416px;
 }
 
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .yellow-line {
     width: 338px;
   }
@@ -664,16 +664,41 @@ nav {
   background-clip: padding-box;
   margin-top: 250px;
 }
-@media(max-width: 1360px) {
+@media (max-width: 1360px) {
   .recovery {
     margin-top: 50px;
   }
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .recovery {
     font-size: 15px;
     width: 340px;
     margin-left: 48px;
+  }
+}
+@media (max-width: 425px) {
+  .recovery {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 410px) {
+  .recovery {
+    margin-left: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .recovery {
+    margin-left: 28px;
+  }
+}
+@media (max-width: 390px) {
+  .recovery {
+    margin-left: 18px;
+  }
+}
+@media (max-width: 370px) {
+  .recovery {
+    margin-left: 10px;
   }
 }
 
@@ -690,7 +715,7 @@ nav {
   margin-top: 50px;
 }
 
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .recovery h1 {
     width: 338px;
     font-size: 25px;
@@ -705,7 +730,7 @@ nav {
   color: #8a8a8a;
   margin-left: 50px;
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .recovery p {
     font-size: 15px;
   }
@@ -716,17 +741,37 @@ nav {
   width: 420px;
   margin-top: 250px;
 }
-@media(max-width: 1360px) {
+@media (max-width: 1360px) {
   .personal {
     margin-top: 50px;
   }
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .personal {
     display: flex;
     flex-direction: column;
     width: 340px;
-    margin-left: 45px;
+    margin-left: 55px;
+  }
+}
+@media (max-width: 425px) {
+  .personal {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 405px) {
+  .personal {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .personal {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 380px) {
+  .personal {
+    margin-left: 20px;
   }
 }
 .personal h1 {
@@ -741,7 +786,7 @@ nav {
   margin-left: 50px;
   margin-top: 50px;
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .personal h1 {
     font-size: 20px;
     margin-left: 18px;
@@ -756,7 +801,7 @@ nav {
   color: #100e18;
   margin-left: 50px;
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .personal p {
     margin-left: 18px;
   }
@@ -774,7 +819,7 @@ nav {
   cursor: pointer;
   margin-top: 40px;
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .personal .button {
     width: 181px;
     margin-left: 18px;
@@ -789,13 +834,43 @@ nav {
   margin-top: 250px;
 }
 
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .group {
     width: 340px;
     margin-left: 12%;
   }
 }
-@media(max-width: 1360px) {
+@media (max-width: 430px) {
+  .group {
+    width: 340px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 405px) {
+  .group {
+    width: 340px;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 398px) {
+  .group {
+    width: 340px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 375px) {
+  .group {
+    width: 340px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 358px) {
+  .group {
+    width: 340px;
+    margin-left: 7px;
+  }
+}
+@media (max-width: 1360px) {
   .group {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -813,7 +888,7 @@ nav {
   margin-left: 50px;
   margin-top: 50px;
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .group h1 {
     font-size: 25px;
   }
@@ -827,12 +902,11 @@ nav {
   color: #8a8a8a;
   margin-left: 50px;
 }
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .group p {
     font-size: 15px;
   }
 }
-
 
 /* SWIPER  */
 .swiper-pagination-bullet-active {
