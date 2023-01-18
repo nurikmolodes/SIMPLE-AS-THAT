@@ -912,3 +912,148 @@ nav {
 .swiper-pagination-bullet-active {
   background-color: white !important;
 }
+
+/* CIRCLE  */
+.circle {
+  max-width: 1920px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  min-width: 350px;
+  height: 1120px;
+  background: url("./assets/circle.svg");
+}
+@media(max-width: 1000px) {
+  .circle {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.description {
+  height: 690px;
+  width: 600px;
+  background: #FFFFFF;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  right: 130px;
+  top: 200px;
+  flex: wrap;
+}
+@media(max-width: 1670px) {
+  .description {
+    width: 400px;
+    height: auto;
+    margin: 0 50px;
+  }
+}
+@media(max-width: 1460px) {
+  .description {
+    top: 550px;
+  }
+}
+@media(max-width: 1000px) {
+  .description {
+    top: 500px;
+    right: 20%;
+  }
+}
+@media(max-width: 900px) {
+  .description {
+    top: 400px;
+    right: 17%;
+  }
+}
+@media(max-width: 700px) {
+  .description {
+    top: 350px;
+    right: 13%;
+  }
+}
+@media(max-width: 630px) {
+  .description {
+    top: 350px;
+    right: 10%;
+  }
+}
+@media(max-width: 600px) {
+  .description {
+    top: 300px;
+    right: 8%;
+  }
+}
+@media(max-width: 540px) {
+  .description {
+    top: 300px;
+    right: 0%;
+  }
+}
+@media(max-width: 490px) {
+  .description {
+    top: 250px;
+    right: 0%;
+  }
+}
+@media(max-width: 470px) {
+  .description {
+    top: 250px;
+    right: -5%;
+  }
+}
+@media(max-width: 445px) {
+  .description {
+    top: 250px;
+    right: -8%;
+  }
+}
+@media(max-width: 406px) {
+  .description {
+    top: 250px;
+    right: -14%;
+  }
+}
+@media(max-width: 385px) {
+  .description {
+    top: 250px;
+    right: -5%;
+    width: 300px;
+  }
+}
+
+
+.list h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #100e18;
+}
+.list p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #100e18;
+  opacity: 0.7;
+  width: 450px;
+  text-align: left;
+}
+@media(max-width: 415px) {
+  .list p {
+    width: 340px;
+    font-size: 15px;
+  }
+}
+@media(max-width: 1670px) {
+  .list p {
+    width: auto;
+    margin: 0 20px;
+  }
+}
