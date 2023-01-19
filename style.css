@@ -1417,6 +1417,11 @@ input:checked + .sliderr:before {
   flex-direction: column;
   align-items: center;
 }
+@media(max-width: 5400px) {
+  .switchers {
+    margin-left: 60px;
+  }
+}
 @media(max-width: 390px) {
   .up p {
     margin: 0 30px;
