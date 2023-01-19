@@ -1298,3 +1298,130 @@ nav {
 .swiper-button-next::after {
   display: none;
 }
+
+/* PRICING  */
+.pricing {
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  background: #100e18;
+}
+.pricing h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.pricing p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #8a8a8a;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.sliderr {
+  position: absolute;
+  cursor: pointer;
+  top: -3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #100e18;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50px;
+  border: 1px solid #8a8a8a;
+}
+
+.sliderr:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+input:checked + .sliderr {
+  background-color: #2196f3;
+}
+
+input:focus + .sliderr {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .sliderr:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.sliderr.round {
+  border-radius: 50px;
+}
+
+.sliderr.round:before {
+  border-radius: 50px;
+}
+
+.switchers {
+  display: flex;
+}
+.check {
+  display: flex;
+  align-items: center;
+}
+.check h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  right: 40px;
+}
+
+.up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media(max-width: 390px) {
+  .up p {
+    margin: 0 30px;
+  }
+  .switchers {
+    margin-left: 40px;
+  }
+}
