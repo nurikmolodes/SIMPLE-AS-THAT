@@ -1550,7 +1550,7 @@ input:checked + .sliderr:before {
 }
 @media (max-width: 485px) {
   .basic hr {
-    width: 350px;
+    width: 348px;
   }
 }
 .basic ul {
@@ -1599,7 +1599,7 @@ input:checked + .sliderr:before {
 }
 @media (max-width: 485px) {
   .pro hr {
-    width: 350px;
+    width: 348px;
   }
 }
 .pro ul {
@@ -1648,7 +1648,7 @@ input:checked + .sliderr:before {
 }
 @media (max-width: 485px) {
   .medium hr {
-    width: 350px;
+    width: 348px;
   }
 }
 .medium ul {
