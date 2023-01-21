@@ -2203,7 +2203,7 @@ input:checked + .sliderr:before {
     width: 354px;
   }
 }
-@media(max-width: 380px) {
+@media (max-width: 380px) {
   .email input {
     width: 320px;
     height: 70px;
@@ -2235,14 +2235,198 @@ input:checked + .sliderr:before {
     margin-bottom: 140px;
   }
 }
-@media(max-width: 588px) {
+@media (max-width: 588px) {
   .email p {
     width: 340px;
   }
 }
-@media(max-width: 380px) {
+@media (max-width: 380px) {
   .email p {
     width: 320px;
     height: 70px;
   }
+}
+
+/* FOOTER  */
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 135px;
+  background: #100e18;
+  position: relative;
+  bottom: 5px;
+}
+@media (max-width: 1515px) {
+  footer {
+    gap: 50px;
+  }
+}
+@media (max-width: 1160px) {
+  footer {
+    gap: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.logoBellafit {
+  margin-top: 90px;
+}
+.first-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 90px;
+  margin-bottom: 200px;
+}
+@media (max-width: 1160px) {
+  .first-column {
+    margin-top: 50px;
+    gap: 14px;
+    margin-right: 130px;
+  }
+}
+.first-column a {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+.second-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 90px;
+}
+@media (max-width: 1160px) {
+  .second-column {
+    margin-top: -100px;
+    margin-right: 60px;
+    gap: 14px;
+  }
+}
+.second-column a {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+.third-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 90px;
+}
+@media (max-width: 1160px) {
+  .third-column {
+    margin-top: 80px;
+    gap: 14px;
+    margin-right: 100px;
+  }
+}
+.third-column a {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+.fourth-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 85px;
+}
+@media (max-width: 1160px) {
+  .fourth-column {
+    gap: 10px;
+  }
+}
+.fourth-column a {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+.under {
+  display: flex;
+  gap: 35px;
+}
+@media (max-width: 1160px) {
+  .under {
+    margin-left: 100px;
+    gap: 10px;
+    margin-bottom: 66px;
+  }
+}
+.under h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 336px;
+}
+@media (max-width: 1160px) {
+  .under h3 {
+    width: 269px;
+  }
+}
+
+.under-footer {
+  max-width: 1920px;
+  background: #100e18;
+  position: relative;
+  /* bottom: 20px; */
+  margin-top: -20px;
+  height: 300px;
+}
+.under-footer .three-links {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+@media(max-width: 548px) {
+  .three-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.three-links a {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #8a8a8a;
+  cursor: pointer;
+}
+.hr-line {
+  border: 1px solid #8a8a8a;
+  margin-bottom: 50px;
+  width: 1600px;
 }
