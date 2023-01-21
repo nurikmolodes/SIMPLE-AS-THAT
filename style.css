@@ -1505,7 +1505,6 @@ input:checked + .sliderr:before {
   margin-top: 38.5px;
 }
 
-
 .member h2 {
   font-family: "Bebas Neue";
   font-style: normal;
@@ -1697,4 +1696,279 @@ input:checked + .sliderr:before {
   font-size: 18px;
   line-height: 32px;
   color: #8a8a8a !important;
+}
+
+/* SHOP ACCESSORIES */
+.shop-access {
+  max-width: 1920px;
+}
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 180px;
+}
+.shop h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #100e18;
+}
+.shop p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #8a8a8a;
+}
+.big {
+  display: flex;
+}
+@media (max-width: 1647px) {
+  .big {
+    justify-content: center;
+  }
+  .big img {
+    width: 100%;
+  }
+}
+.access {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 100px;
+}
+@media (max-width: 1647px) {
+  .access {
+    flex-direction: column;
+  }
+}
+.two-pieces {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.buton {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 180px;
+}
+.explore {
+  border: 1px solid #100e18;
+  width: 280px;
+  height: 76px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  color: #100e18;
+}
+
+/* VIDEO  */
+.video {
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video .training {
+  width: 100%;
+}
+.video .play {
+  position: absolute;
+}
+@media (max-width: 1175px) {
+  .video .play {
+    width: 100px;
+  }
+}
+
+/* REVIEWS  */
+.reviews {
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews h1 {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #100e18;
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+.review {
+  border: 14px solid #faff05;
+  width: 1564px;
+  height: 555px;
+  display: flex;
+}
+@media (max-width: 1600px) {
+  .review {
+    width: 1000px;
+  }
+}
+@media (max-width: 1040px) {
+  .review {
+    width: 600px;
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media (max-width: 645px) {
+  .review {
+    width: 400px;
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media (max-width: 445px) {
+  .review {
+    width: 340px;
+  }
+}
+.ava {
+  margin-top: 84px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 1040px) {
+  .ava {
+    margin-left: 0;
+  }
+}
+.ava h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #100e18;
+}
+.ava h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #8a8a8a;
+  position: relative;
+  bottom: 30px;
+}
+
+.comment {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+@media (max-width: 1040px) {
+  .comment {
+    margin-left: 0;
+    align-items: center;
+  }
+}
+.comment h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #100e18;
+  margin-top: 140px;
+}
+@media (max-width: 1040px) {
+  .comment h1 {
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 240px;
+  }
+}
+@media (max-width: 445px) {
+  .comment h1 {
+    margin-right: 230px;
+  }
+}
+.comment p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 50px;
+  color: #100e18;
+  width: 919px;
+}
+@media (max-width: 1600px) {
+  .comment p {
+    width: 300px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1040px) {
+  .comment p {
+    margin-right: 10px;
+  }
+}
+.comment hr {
+  width: 166px;
+  height: 0px;
+  border: 2px solid #c4140f;
+  margin-right: 740px;
+  margin-top: -70px;
+}
+@media (max-width: 1040px) {
+  .comment hr {
+    width: 67px;
+    margin-right: 385px;
+  }
+}
+@media (max-width: 645px) {
+  .comment hr {
+    margin-right: 285px;
+  }
+}
+@media (max-width: 445px) {
+  .comment hr {
+    margin-right: 252px;
+  }
+}
+.quotes {
+  position: absolute;
+  right: 50px;
+  top: 160px;
+}
+@media (max-width: 1040px) {
+  .quotes {
+    top: 0;
+    right: 150px;
+  }
+}
+@media (max-width: 645px) {
+  .quotes {
+   right: 50px;
+  }
 }
